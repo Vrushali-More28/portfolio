@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vrushali More Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+  </style>
+
+
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Vrushali More</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education-experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Vrushali More</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onClick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onClick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onClick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onClick="toggleMenu()">Projects</a></li>
+        <li><a href="#research" onClick="toggleMenu()">Reseach</a></li>
+        <li><a href="#contact" onClick="toggleMenu()">Contact</a></li>
+
+      </div>
+    </div>
+
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/laptop.png" alt="Vrushali More profile picture" >
+    </div>
+    <div class="section__text">
+      <h1 class="section__text__p1">Hello, I'm</h1>
+      <h1 class="title">Vrushali More</h1>
+      <p class="section__text__p2"><span class="typing-text"></span></p>
+      <p>Welcome to my journey of mastering Software development, improving as a developer, and advancing in the tech world.</p><br />
+      <div class="btn-container">
+        <button class="btn btn-color-2" onClick="window.open('./assets/Vrushali-More-Resume.pdf')">Download CV</button>
+
+        <button class="btn btn-color-1" onClick="location.href='./#contact'">Contact Info</button>
+      </div>
+
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onClick="location.href='https://www.linkedin.com/in/vrushalim/'">
+
+        <img src="./assets/github.png" alt="My Github profile" class="icon" onClick="location.href='https://github.com/Vrushali-More28'">
+
+        <img src="./assets/email.png" alt="Email Me" class="icon" onClick= "location.href= 'mailto:vrushalimore28@outlook.com'">
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1> <br />
+    <div class="section-container">
+      <br /> 
+
+      <!----
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="experience icon" class="icon">
+            <h3>Experience</h3>
+            <p> Fullstack Software Development</p>
+          </div>
+
+          <div class="details-container">
+            <img src="./assets/education.png" alt="education icon" class="icon">
+            <h3>Education</h3>
+            <p><br />Master's in Computer Science <br /> Master of Engineering in Information Technology <br /> Bachelor of Engineering in Computer Science </p>
+          </div>
+        </div>
+          --->
+
+       <!--<div class="image">
+          <img src="assets/profile-pic.jpeg" alt="About-Image" />
+        </div> -->
+        <div class="text-container">
+          <p>
+            I am a passionate software developer with a Master's in Computer Science from Binghamton University, SUNY, and a strong background in engineering from Savitribai Phule Pune University. With extensive experience in developing scalable and high-performing applications, I specialize in creating robust APIs, optimizing system performance, and leveraging cloud technologies.
+            <br /><br />
+
+            I have a proven track record of implementing scalable and efficient solutions, from developing 20+ services for healthcare platforms at Infosys to crafting cross-platform mobile applications. My technical skill set includes proficiency in Java, Python, JavaScript, and frameworks such as Spring Boot and React JS, along with experience in cloud technologies like AWS and Google Cloud Platform.  I have also done extensive research and published papers on credit card fraud detection using machine learning and energy clone detection protocols for wireless sensor networks.
+<br /><br />
+I thrive in collaborative environments and am adept at agile methodologies, ensuring timely and quality delivery of projects. I'm eager to apply my growing knowledge as a full stack developer within an engaging and collaborative environment, seeking challenges that will expand my network and refine my expertise.
+<br /><br />
+Let's connect and explore how my diverse skill set can contribute to innovative and impactful projects in the tech world!
+          </p>
+
+        </div>
+
+      </div>
+       <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpeg" alt="profile picture" class="about-pic">
+      </div> 
+
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onClick="location.href='./#projects'">
+
+  </section>
+<!-------------------- Qualification Area (Start) -------------------->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section id="education-experience">
+    <h2>Education & Experience</h2>
+    
+    <div class="timeline">
+      <div class="timeline-item left">
+        <i><img src="./assets/education-cap.png" alt="experience icon" class="icon"></i>
+        <div class="timeline-content">
+          <h3>State University of New York at Binghamton</h3>
+          <h4>Master of Science in Computer Science</h4>
+          <span>January'2023 - May'2024</span>
+          <p>Binghamton, New York, USA</p>
+            <li>Relevant Coursework:<li>
+            <li>Data Structures and Algorithms,Design Patterns, Operating Systems</li> Cloud Computing, Artificial Intelligence, Programming Languages,<br /> </li> Computer Architecture and Organization, Social Media Data Science Pipeline</li>
+          
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <i><img src="./assets/vlogger.png" alt="experience icon" class="icon"></i>
+        <div class="timeline-content">
+          <h3>Infosys</h3>
+          <h4>Senior Systems Engineer</h4>
+          <p>September'2021 - June'2022</p>
+          <p>Pune, India</p>
+          <ul>•	Developed end-to-end application service using Microservices, Java, Spring Boot and Angular. <br />
+              •	Developed 20+ services for a Healthcare Platform, learned QA/PT/UAT deployment in various environment. <br />
+              •	Collaborated with cross-functional teams to design and implement continuous integration and deployment (CI/CD) pipelines while developing REST APIs using the Spring Boot and Java. <br />
+              •	Worked cross functionally with test team members and developers enhancing testing infrastructure and integrating new tools. <br />
+              •	Completed a certification in Agile methodologies which was implemented in the team, resulting in a 25% increase in project delivery speed. <br />
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <i><img src="./assets/vlogger.png" alt="experience icon" class="icon"></i>
+        <div class="timeline-content">
+          <h3>Infosys</h3>
+          <h4>Systems Engineer</h4>
+          <p>September'2020 - September'2021</p>
+          <p>Mysore, Karnataka, India</p>
+          <ul>
+            •	Gained knowledge of Java Spring Boot and Microservices through stream training in Java, Python, and Angular, and developed an E-kart application using Python. <br />
+            •	Utilized Kubernetes for containerizing applications, worked with CI/CD Pipeline and Microservices architecture, improving scalability and simplifying deployment process. <br />
+            •	Worked cross-functionally with test teams and developers, enhancing testing infrastructure, integrating new tools and bug fixes. <br />
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <i><img src="./assets/education-cap.png" alt="experience icon" class="icon"></i>
+        <div class="timeline-content">
+          <h3>Pune University</h3>
+          <h4>Master of Engineering in Information Technology</h4>
+          <p>August'2019 - May'2021</p>
+          <p>Pune, Maharashtra, India</p>
+          <ul>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <i><img src="./assets/education-cap.png" alt="experience icon" class="icon"></i>
+        <div class="timeline-content">
+          <h3>Pune University</h3>
+          <h4>Bachelor of Engineering in Computer Science</h4>
+          <p>July'2016 - May'2019</p>
+          <p>Pune, Maharashtra, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+</body>
+</html>
+
+
+<!-------------------- Qualification Area (End) -------------------->
+
+
+<section id="projects">
+    
+    <p class="section__text__p1" >Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/credit card fraud.png" alt="Project 1" class="project-img">
+
+          </div>
+          <h2 class="experience-sub-title project-title">Credit Card Fraud Detection using Machine Learning</h2>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vrushali-More28/Credit-Card-Fraud-Detection-Using-Machine-Learning-Techniques'">
+              Github
+            </button>
+
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/aspect based.jpg" alt="Project 2" class="project-img">
+
+          </div>
+          <h2 class="experience-sub-title project-title">Aspect based Sentiment Analysis of Movie Reviews</h2>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vrushali-More28/Aspect-based-Sentiment-Analysis-of-Movie-Reviews'">
+              Github
+            </button>
+
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vrushali-More28/Aspect-based-Sentiment-Analysis-of-Movie-Reviews'">
+              Live Demo
+            </button> -->
+
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/home auto.jpg" alt="Project 3" class="project-img">
+
+          </div>
+          <h2 class="experience-sub-title project-title">Home Automation through IOT using Cloud Services </h2>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Vrushali-More28/Home-Automation-through-IOT-using-cloud-services'">
+              Github
+            </button>
+
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Live Demo
+            </button> -->
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onClick="location.href='./#experience'">
+
+</section>
+
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Language</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Java</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>C</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>C++</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Databases</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>MySQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>MongoDB</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>MongoDB</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>HTML5</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>React</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Node JS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Express JS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Spring Boot</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frameworks, Libraries & Others</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>RESTful API</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>JUnit, Jest</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>TensorFlow</h4>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Firebase</h4>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Apache-Kafka</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Jira</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Tableau</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">DevOps & Tools</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h3>Git</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>AWS</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>GCP</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Docker</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Azure</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>Kubernetes</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+              <div>
+                <h4>CI/CD</h4>
+                <p>Experienced</p>
+              </div>
+            </article>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onClick="location.href='./#research'">
+  </section>
+
+
+
+  <section id="research">
+    
+    <p class="section__text__p1" >Browse My Recent</p>
+    <h1 class="title">Research and Publication</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        
+        <div class="details-container color-container">
+          
+          <div class="article-container">
+            <img src="./assets/Credit Card Fraud Detection Using Machine Learning Techniques.jpg" alt="Project 1" class="research-img">
+            
+            <p><a href="https://drive.google.com/file/d/10qBpb32wgrN0hOkUI-DXDML2rmOXDnfF/view?usp=drive_link">Credit Card Fraud Detection using Machine Learning</a></p>
+          </div>
+          </div>
+          <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onClick="location.href='./#contact'">
+          <div class="details-container color-container">
+          
+            <div class="article-container">
+              <img src="./assets/Energy Clone Detection.png" alt="Project 1" class="research-img">
+              <p><a href="https://www.jetir.org/view?paper=JETIR1903856">Energy Clone Detection</a></p>
+    
+            </div>
+            
+            </div>
+            
+        </div>
+        
+      
+        
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="mail icon" class="icon contact-icon email-icon">
+
+        <p><a href="mailto:vrushalimore28@outlook.com">vrushalimore28@outlook.com</a></p>
+
+      </div>
+
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+
+        <p><a href="https://www.linkedin.com/in/vrushalim/">LinkedIn</a></p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education-experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+    </nav>
+   <!--- <p>Copyright All Rights Reserved.</p> -->
+  </footer>
+  <!-- Typed Script -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+      var typed = new Typed('.typing-text', {
+          strings: ['Software Engineer','Full Stack Developer', 'Cloud Engineer' ,'Machine Learning Engineer'],
+          typeSpeed: 110,
+          loop: true
+      });
+  </script>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
