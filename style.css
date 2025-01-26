@@ -261,7 +261,7 @@ section {
 }
 
 .btn-color-2 {
-  background: rgb(53, 53, 53);
+  background: rgb(46, 46, 46);
   color: rgb(34, 177, 234);
 }
 
@@ -396,11 +396,11 @@ article.icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: rgb(52, 52, 52);
 }
 
 .project-btn {
-  color: black;
+  color: rgb(242, 241, 241);
   border-color: rgb(163, 163, 163);
 }
 
